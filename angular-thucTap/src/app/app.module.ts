@@ -3,12 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LaygiatriComponent } from './components/laygiatri/laygiatri.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LaygiatriComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -16,8 +14,5 @@ import { LaygiatriComponent } from './components/laygiatri/laygiatri.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
-
 })
-export class AppModule {
-
- }
+export class AppModule { }
